@@ -1,0 +1,101 @@
+# 编译器生成的文件
+####################
+# Windows
+*.obj
+*.iobj
+*.pdb
+*.idb
+*.ilk
+*.lib
+*.exp
+*.vspscc
+
+# Linux
+*.o
+*.a
+*.so
+*.out
+*.app
+
+# macOS
+*.o
+*.dSYM
+*.dylib
+
+# Visual Studio
+####################
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# 编译输出
+####################
+build/
+bin/
+lib/
+out/
+
+# CMake 构建目录
+####################
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+
+# clang 和其他构建工具
+####################
+*.d
+*.clangd
+*.cache
+*.log
+
+# 其他 IDE 配置
+####################
+*.iml
+*.swp
+*.swo
+*.vscode/
+
+# 临时文件
+####################
+*~
+# Windows Thumbs.db 文件
+Thumbs.db
+
+# macOS .DS_Store 文件
+.DS_Store
+
+# Linux 文件系统
+.directory
+
+# my delete
+####################
+# 可执行程序
+highdiv
+
+# z3 文件
+.z3-trace
+z3pp
+
+# 文件夹
+calc_result/
+samples/
+test_cases/
+QF_LIA
+
+# python 环境
+venv/
+
+# 数据文件
+csv_dir/
+calc_result_4_28/
+calc_result_4_29/
+*.xlsx
+
+# 样本文件
+*.samples
