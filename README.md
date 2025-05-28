@@ -2,7 +2,7 @@
 
 *HighDiv* is a bidirectionally guided iterative sampling framework that combines CDCL(T) and local search to enable high-diversity sampling for SMT(LIA) formulas. This repository contains the implementation of *HighDiv*, the benchmark instances used in the experiments, and the corresponding experimental results.
 
-## nstructions for Building *HighDiv*
+## Instructions for Building *HighDiv*
 The instructions of seting up *HighDiv* and validate its general functionality are described in the [INSTALL.md](INSTALL.md) file.
 
 ## Instructions for Running *HighDiv*

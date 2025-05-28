@@ -39,6 +39,6 @@ By executing this commands, users can build *HighDiv*. Note that *HighDiv* shoul
 To check whether the compilation is successful or not, the user may run the following command in the `HighDiv` directory:
 
 ```bash
-./HighDiv -i LIA_bench/LIA_convert_query-1164.smt2 -o samples -n 10 -t 900 -s 123 -m hybrid
+./HighDiv -i LIA_bench/LIA_convert_query-1164.smt2 -o samples
 ```
 
