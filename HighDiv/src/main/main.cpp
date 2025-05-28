@@ -7,7 +7,6 @@ struct my_args {
     double maxTimeLimit = 3600.0;
     sampler::SamplingMode mode = sampler::HYBRID;
     int randomSeed = 0;
-
     size_t cdclEpoch = 1;
     double fixedVarsPct = 0.5;
 };

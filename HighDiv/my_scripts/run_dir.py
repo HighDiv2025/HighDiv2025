@@ -30,6 +30,6 @@ def run_benchmark_script(base_path):
 
 if __name__ == "__main__":
     # 定义要遍历的基础路径（这里假设是相对于当前脚本工作目录的相对路径）
-    base_directory = "QF_LIA"
+    base_directory = "LIA_bench"
     # 调用函数
     run_benchmark_script(base_directory)

@@ -18,6 +18,6 @@ mkdir -p "$log_subfolder"
 
 # 使用 GNU parallel 来并行执行命令，并将标准输出和错误输出重定向到日志文件 
 find "$input_directory" -name '*.smt2' -type f | parallel -j 15 --bar \
-  timeout --kill-after=30 3605 "./highdiv  -t 3600 -n $n_samples -o $output_directory -s 0 -m hybrid -i -m 2ls {} > $log_subfolder/\$(basename {} .smt2).log 2>&1"
+  timeout --kill-after=30 3605 "./highdiv  -t 3600 -n $n_samples -o $output_directory -s 0 -m hybrid -i -m hybrid {} > $log_subfolder/\$(basename {} .smt2).log 2>&1"
 
 echo "All processes have completed."
