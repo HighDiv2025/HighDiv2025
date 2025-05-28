@@ -76,7 +76,7 @@ Note that since this framework relies on certain tactics in z3 (e.g., `solve-eqs
 sudo apt update
 sudo apt install -y python3 python3-pip python3-venv
 sudo apt-get install build-essential cmake
-git clone git@github.com:laigroup/HighDiv.git
+git clone git@github.com:HighDiv2025/HighDiv2025.git
 cd HighDiv
 ```
 
@@ -127,3 +127,7 @@ Options:
   -p <fixed var percentage>   Set the percentage of fixed variables (Only effective in hybrid mode)
   -h                          Display this help message
 ```
+
+## 5. Experimental Data
+
+You can find the experimental results and benchmarks data in folders `results` and `benchmarks`, respectively.
